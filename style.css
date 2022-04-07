@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+}
+
+.header {
+    height: 80px;
+    background-color: #fcfafa;    
+}
+
+.head {
+    height: 100px;
+    width: 250px;
+    padding-left: 520px;
+    cursor: pointer;
+}
+
+
+.navbar {
+    height: 50px;
+    background-color: #fcfafa;
+    padding-top: 40px;
+    position: sticky;
+    top: 0;
+   
+}
+
+.navbar ul li {
+    display: inline;
+    padding-left: 50px;
+    margin-left: 70px;   
+   
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.navbar ul li a:hover {
+    border-bottom: #f21f1f 3px solid;
+}
+
+button {
+    width: 120px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+    background-color: transparent;
+}
+
+button img {
+    display: none;
+   
+}
+
+
+.container  {
+    height: 400px;
+    background-image: url(img/Coca-Colas-new-selfie-bottle-1000x600.jpg);
+    padding: 30px 0px 0px 50px;
+}
+.container1 {
+    height: 400px;
+    background-image: url(img/file6yw6vy7izpv3s3i87d1-1569397092.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 60px 0px 0px;   
+    text-align: right; 
+}
+.container2 {
+    height: 400px;
+    background-image: url(img/5708976.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0px 0px 50px;   
+}
+.container3{
+    height: 400px;
+    background-image: url(img/b.jpg);  
+    background-size: cover;
+    padding: 30px 60px ;   
+    text-align: right;    
+}
+
+.container4 {
+    height: 400px;
+    background-image: url(img/1QT-tea-garden.jpg);
+    background-size: cover;
+    padding: 30px 0px 0px 50px;   
+}
+.container5 {
+    height: 400px;
+    background-image: url(img/man-woman.jpg);
+    background-size: cover;
+    padding: 30px 0px 0px 50px; 
+}
+
+.footer {
+    height: 285px;
+    background-color: rgb(65, 63, 63);
+}
+
+.footer img {
+    width: 200px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    padding: 40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border-right: 1px solid white;      */
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+.last {
+    color: white;
+    padding-top: 60px;
+    padding-left :20px; 
+    font-size: 14px;
+    font-family: 'Redressed', cursive;
+}
+
+
+.social {
+   margin-right: 550px;
+   position: relative;
+   bottom: 65px;
+   text-align: center;
+   padding: auto;
+}
+.social img{
+    height: 30px;
+    width: 30px;
+    float: right; 
+    cursor: pointer;   
+    transition: 0.5s;
+}
+
+.social img:hover {
+    transform: scale(1.1);   
+}
+
+.last p {
+    font-family: 'Redressed', cursive;
+    font-size: 16px;
+    text-align: center;
+}
+
